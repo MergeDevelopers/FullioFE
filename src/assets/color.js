@@ -17,7 +17,7 @@ const COLOR = {
   GS43: '#434343',
   GS26: '#262626',
   GS14: '#141414',
-  Red: '#ec132E',
+  ERROR: '#ec132E',
   Green: '#3ac73b',
 };
 
