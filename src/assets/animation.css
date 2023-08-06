@@ -1,0 +1,14 @@
+@charset 'utf-8';
+.signin_pre_animation {
+    opacity: 0;
+    transform: translateY(-50px);
+    transition: 0.8s;
+}
+.signin_post_animation {
+    opacity: 100%;
+    transform: translateY(0);
+}
+.wave_canvas {
+    width: 100vw;
+    height: 30vh;
+}
