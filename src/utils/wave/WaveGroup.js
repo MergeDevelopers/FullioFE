@@ -1,4 +1,3 @@
-import COLOR from "../../assets/color";
 import { Wave } from "./Wave";
 
 export class WaveGroup {

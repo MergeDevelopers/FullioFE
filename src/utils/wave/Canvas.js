@@ -1,6 +1,6 @@
 import { WaveGroup } from "./WaveGroup";
 
-export class Canvas {
+export class WaveCanvas {
     constructor(canvas, container) {
         this.container = container;
         this.canvas = canvas;

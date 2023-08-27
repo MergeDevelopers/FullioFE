@@ -16,4 +16,5 @@ body {
 .signin_background {
   background: url('../assets/images/background/main.png');
   background-size: cover;
+  transform: translate();
 }

@@ -1,5 +1,5 @@
 import Style from './SignInForm.style';
-import cancelBlack from '../../assets/images/icons/cancel_black.png';
+import cancelBlack from '../../assets/images/icons/cancel_gray.png';
 import cancelError from '../../assets/images/icons/cancel_red.png';
 import { useState } from 'react';
 import { validateId, validatePw } from '../../utils/validation/validation';

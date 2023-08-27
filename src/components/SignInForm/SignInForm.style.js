@@ -40,13 +40,14 @@ const submitButton = styled.button`
     height: 52px;
     border: 1px solid ${COLOR.Primary};
     border-radius: 8px;
-    color: ${COLOR.Primary};
-    background-color: ${COLOR.White};
+    color: ${COLOR.White};
+    background-color: ${COLOR.Primary};
     cursor: pointer;
     margin-top: 20px;
+    font-size: 16px;
 
     &:hover {
-        background-color: ${COLOR.Primary};
+        background-color: ${COLOR.PrimaryDark};
         color: ${COLOR.White};
     }
 `;
