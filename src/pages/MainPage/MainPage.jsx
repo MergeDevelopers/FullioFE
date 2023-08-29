@@ -1,18 +1,21 @@
 import Style from "./MainPage.style";
 import logoBook from "../../assets/images/logo/Logo_book.png";
 import { Link } from "react-router-dom";
-import { routePaths } from "../../constants/path";
+import { ROUTE_PATHS } from "../../constants/path";
+import Navigation from "../../components/ui/Navigation/Navigation";
+import { MAIN_NAV } from "../../constants/NAV_CATEGORY.JS";
+import Calender from "../../components/Calender/Calender";
 
 function MainPage() {
   return (
     <Style.LayoutContainer>
-      <Link to={routePaths.home}>
+      <Link to={ROUTE_PATHS.home}>
         <Style.SrOnly>Fullio</Style.SrOnly>
         <Style.LogoImage src={logoBook} />
       </Link>
-      <div>네비</div>
+      <Navigation NAV_CATEGORY={MAIN_NAV}/>
       <Style.ContentsGrid>
-        <div>달력</div>
+        <Calender />
         <div>서치바</div>
         <div>activity</div>
         <div>my skill</div>
