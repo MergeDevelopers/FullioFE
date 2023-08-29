@@ -6,7 +6,8 @@ const LayoutContainer = styled.div`
   flex-direction: row;
   margin: 88px auto 0;
   width: fit-content;
-
+  gap: 16px;
+  
   & > a {
     position: absolute;
     top: -72px;

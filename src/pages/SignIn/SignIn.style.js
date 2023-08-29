@@ -4,9 +4,6 @@ const Background = styled.div`
     width: 100%;
     height: 100vh;
     padding-top: calc((100vh - 576px)/2);
-    position: relative;
-    background-color: ${COLOR.White};
-    background: radial-gradient(188.96% 117.75% at 11.56% 16.53%, rgba(187, 230, 255, 0.30) 0%, rgba(206, 237, 255, 0.00) 44.76%), linear-gradient(0deg, rgba(177, 222, 255, 0.30) 0%, rgba(177, 222, 255, 0.30) 100%), radial-gradient(91.20% 109.49% at 84.80% 24.80%, rgba(177, 222, 255, 0.90) 0%, rgba(174, 225, 255, 0.87) 21.68%, rgba(246, 252, 255, 0.53) 65.90%, rgba(255, 255, 255, 0.00) 77.38%), radial-gradient(50.77% 61.00% at 63.44% 17.64%, rgba(177, 222, 255, 0.90) 0%, rgba(174, 225, 255, 0.87) 30.04%, rgba(222, 245, 255, 0.53) 67.32%, rgba(222, 246, 255, 0.00) 100%);
     
     &:before {
         opacity: 0.07;
