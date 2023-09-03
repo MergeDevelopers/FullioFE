@@ -54,7 +54,7 @@ const ContentsGrid = styled.div`
     grid-row: 1 / 5;
   }
   & div:nth-child(6) {
-    grid-column: 1 / 4;
+    grid-column: 1 / 3;
     grid-row: 4 / 5;
   }
 `;
