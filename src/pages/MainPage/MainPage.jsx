@@ -8,6 +8,7 @@ import Calender from "../../components/Calender/Calender";
 import SearchBar from "../../components/SeachBar/SearchBar";
 import ActivityCounter from "../../components/ActivityCounter/ActivityCounter";
 import MySkill from "../../components/MySkill/MySkill";
+import MonthRecord from "../../components/MonthRecord/MonthRecord";
 
 function MainPage() {
   return (
@@ -23,7 +24,7 @@ function MainPage() {
         <ActivityCounter />
         <MySkill />
         <div>info</div>
-        <div>month record</div>
+        <MonthRecord />
       </Style.ContentsGrid>
     </Style.LayoutContainer>
   );
