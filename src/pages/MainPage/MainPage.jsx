@@ -6,6 +6,7 @@ import Navigation from "../../components/ui/Navigation/Navigation";
 import { MAIN_NAV } from "../../constants/NAV_CATEGORY.JS";
 import Calender from "../../components/Calender/Calender";
 import SearchBar from "../../components/SeachBar/SearchBar";
+import ActivityCounter from "../../components/ActivityCounter/ActivityCounter";
 
 function MainPage() {
   return (
@@ -18,7 +19,7 @@ function MainPage() {
       <Style.ContentsGrid>
         <Calender />
         <SearchBar />
-        <div>activity</div>
+        <ActivityCounter />
         <div>my skill</div>
         <div>info</div>
         <div>month record</div>
