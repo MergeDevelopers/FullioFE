@@ -5,6 +5,7 @@ import { ROUTE_PATHS } from "../../constants/path";
 import Navigation from "../../components/ui/Navigation/Navigation";
 import { MAIN_NAV } from "../../constants/NAV_CATEGORY.JS";
 import Calender from "../../components/Calender/Calender";
+import SearchBar from "../../components/SeachBar/SearchBar";
 
 function MainPage() {
   return (
@@ -16,7 +17,7 @@ function MainPage() {
       <Navigation NAV_CATEGORY={MAIN_NAV}/>
       <Style.ContentsGrid>
         <Calender />
-        <div>서치바</div>
+        <SearchBar />
         <div>activity</div>
         <div>my skill</div>
         <div>info</div>
