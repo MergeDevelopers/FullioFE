@@ -9,6 +9,7 @@ import SearchBar from "../../components/SeachBar/SearchBar";
 import ActivityCounter from "../../components/ActivityCounter/ActivityCounter";
 import MySkill from "../../components/MySkill/MySkill";
 import MonthRecord from "../../components/MonthRecord/MonthRecord";
+import AsideUserInfo from "../../components/AsideUserInfo/AsideUserInfo";
 
 function MainPage() {
   return (
@@ -23,7 +24,7 @@ function MainPage() {
         <SearchBar />
         <ActivityCounter />
         <MySkill />
-        <div>info</div>
+        <AsideUserInfo />
         <MonthRecord />
       </Style.ContentsGrid>
     </Style.LayoutContainer>
